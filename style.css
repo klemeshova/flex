@@ -1,0 +1,311 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    color: rgb(50, 50 , 50);
+    font-size:36px;
+}
+
+p {
+    color: rgb(153, 153, 153);
+}
+ul, li {
+    display:block;
+}
+.container{
+   max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+    background:url(img/Rectangle.jpg) no-repeat;
+    width: 100%;
+    
+}
+header a {
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    top: 40px;
+        /* border: yellow 3px solid; */
+    }
+.header ul{
+    margin-top: 0px;
+    padding-top: 40px;
+}
+.menu li a {
+    text-decoration: none;
+    height: 20px;
+ }
+.menu li{
+    margin-right: 40px;
+}
+.text-first-screen {
+    text-align: center;
+    margin-top: 259px;
+    padding-bottom: 259px;
+}
+
+.header h1{
+    font-size: 48px;
+    color: white;
+}
+.header p {
+    color: white;
+}
+.button {
+     background: #4985FF;
+     color: white;
+     width: 200px;
+     height: 45px;
+     border: none;
+     border-radius: 30px;
+     margin: 50px 458px 105px 455px;
+     
+}
+.servise h1{
+    margin: 110px 185.5px 50px 185.5px;
+    text-align: center;
+    font-size: 36px;
+    width: 739px;
+    height: 88px;
+}
+.servise p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .servise-item img{
+    width: 100px;
+    height: 100px;
+  }
+ .servise-item {
+        display:flex;
+        justify-content:space-between;
+        margin-top: 70px;
+        text-align: center;
+    }
+.servise-item p {
+    font-size: 14px;
+}
+.servise-item h3 {
+    font-size: 18px;
+}
+.servise-item div {
+    margin-right: 20px;
+}
+.about-us-text{ 
+    width: 490px;
+    height: 245px;
+    margin-right: 121px;
+    margin-top:52px;
+    margin-bottom: 40px;
+}
+.about {
+    background-color: rgb(246,246,248,1);
+}
+.about-us{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-top: 100px;
+}
+.about-us p {
+    color: rgb(153, 153, 153);
+}
+.button2 {
+    color: rgb(73, 133, 255);
+    background-color: rgb(246,246,248,1);
+    width: 202px;
+    height: 20px;
+    text-decoration-line: underline;
+    border:none;
+}
+.our-project {
+    display: flex;
+    margin:0 500px;
+    justify-content: space-between;
+}
+.our-project p {
+    color: rgb(153, 153, 153);
+
+}
+.our-project1 {
+    margin-bottom: 70px;
+    margin-top:160px;
+}
+.our-project img {
+    width: 30px;
+    height: 26px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.all-servise {    
+    background-size: cover;
+    background-size: 100% 490px;
+    background: url(img/Fon.jpg) no-repeat;
+}
+.all-servise p {
+    color: rgb(153, 153, 153);
+}
+
+.all-servise-text h1 {
+    color:white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    width: 540px;
+    height: 88px;
+}
+.button3 {
+    background: #4985FF;
+     color: white;
+     width: 200px;
+     height: 45px;
+     border: none;
+     border-radius: 30px;
+    margin: 120px 10px 93px 0; 
+}
+.all-servise-text{
+    display:flex;
+    justify-content: space-between;  
+}
+.all-servise-item {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+    padding-right: 10px;
+}
+.all-project {
+    padding-bottom: 100px;
+}
+.project-text{
+    text-align: center;
+    padding-bottom: 70px ;
+}
+.project-text p {
+    width: 740px;
+    height: 41px;
+ margin: 0 auto;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+}
+.video {
+    background-size: cover;
+    background: url(img/forvideo.jpg) no-repeat; 
+}
+.video h1, p{
+    color: white;
+}
+.video-text{
+    padding-top:100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-block{
+    margin-top: 70px;
+    margin-bottom: 85px;
+}
+.subcribe {
+    padding-top:100px;
+    text-align: center;
+    margin: 0 auto 85px 0;
+}
+.subcribe p{
+    color: rgb(153, 153, 153);
+}
+.subcribe span {
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    }
+.button-form {background: #4985FF;
+    color: white;
+    width: 190px;
+    height: 45px;
+    border: none;
+    border-radius:  0 30px 30px 0;
+}
+.input {
+    width: 299px;
+    height: 45px;
+    border-radius:  30px  0 0 30px;
+}
+.item-footer {
+    display:flex;
+    justify-content: space-between;
+}
+.footer {
+    background-color: rgb(246,246,248,1);
+}
+.footer h3 {
+    font-size: 18px;
+    color: #000000;
+}
+.footer li {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer p {
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+@media all and (min-width 1200px){
+    .container{
+        width: 1140px;
+    }
+}
+@media all and (max-width 1199px){
+    .container{
+        width: 960px;     
+    }  
+}
+@media all and (max-width 991px){
+    .container{
+        width: 720px;
+    }
+    .about-us-text{ 
+     
+        margin-right: 100px;
+        padding-left: 10px;
+    }
+
+}
+
+@media all and (max-width 768px){
+    .container{
+        width: 540px;
+    }
+    .servise h1 {
+        max-width: 300px; 
+        margin-left: 0;
+    }
+    .about-us-text{ 
+        margin-top:0;
+        margin-right: 100px;
+        padding-left: 10px;
+    }
+        
+}
+@media all and (max-width 575px){
+    .container{
+        /* width: 100%;
+        padding: 0 15px; */
+        background-color: red;
+    }
+    /* .button {
+        background: #4985FF;
+        color: white;
+        width: 150 px;
+        
+        margin: 0;
+    } */
+}
